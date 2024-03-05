@@ -4,7 +4,7 @@ const TransactionSchema = new Schema({
     createdAt:{
         type:Date,default:Date.now
     },
-    StripeId:{
+    stripeId:{
         type:String,
         required:true,
         unique:true
@@ -22,7 +22,7 @@ const TransactionSchema = new Schema({
     },
     buyer:{
         type:Schema.Types.ObjectId,
-        ref:"User"
+        ref:"user"
     }
 })
 

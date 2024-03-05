@@ -50,7 +50,7 @@ function Sidebar() {
     </ul>
   </SignedIn>
   <SignedOut>
-    <Button asChild className='bg-purple-gradiant bg-cover'>
+    <Button asChild className='bg-[#6352fa] text-white bg-cover'>
       <Link href="sign-in">
         Login
       </Link>

@@ -38,6 +38,6 @@ unique:true
 
 })
 
-const User = models?.User || model("User",UserSchema)
+const User = models?.User || model("user",UserSchema)
 
 export default User
