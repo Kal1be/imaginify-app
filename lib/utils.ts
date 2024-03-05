@@ -54,7 +54,7 @@ export const dataUrl = `data:image/svg+xml;base64,${toBase64(
 
 // FORM URL QUERY
 export const formUrlQuery = ({
-  searchParams, 
+  searchParams,
   key,
   value,
 }: FormUrlQueryParams) => {
